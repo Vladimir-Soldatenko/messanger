@@ -1,0 +1,29 @@
+.rightbar {
+  flex: 3;
+  padding: 0 20px 0 0;
+  &__title {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 10px;
+  }
+  &__followings {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    &__item {
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 20px;
+      cursor: pointer;
+      &__img {
+        width: 100px;
+        height: 100px;
+        object-fit: cover;
+        border-radius: 5px;
+      }
+      &__name {
+        // text-align: center;
+      }
+    }
+  }
+}
